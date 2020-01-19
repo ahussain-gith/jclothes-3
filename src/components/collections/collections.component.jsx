@@ -7,6 +7,7 @@ import CollectionItems from "./collection-items.component";
 import { selectCollections } from "../../reduxstore/shop-data/shop-data.selectors";
 
 const Collections = ({ collections }) => {
+  console.log(collections)
   return (
     <div>
       {collections.map(collection => (

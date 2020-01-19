@@ -1,9 +1,7 @@
 import styled, { css } from "styled-components";
 import { Link } from "react-router-dom";
 
-const OptionsStyle = css`
-  
-`;
+
 
 const OptionStyle = css`
   padding: 10px 15px;
@@ -18,7 +16,7 @@ export const HeaderDiv = styled.div`
   margin-bottom: 25px;
 `;
 
-export const LogoDiv = styled(Link)`
+export const LogoDiv = styled.div`
   height: 100%;
   width: 70px;
   padding: 25px;

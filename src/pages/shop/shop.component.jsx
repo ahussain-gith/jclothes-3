@@ -7,8 +7,8 @@ import { selectCollection } from "../../reduxstore/shop-data/shop-data.selectors
 import CollectionItem from "../../components/collections/collection-item.component";
 
 const ShopPage = ({ collection, match }) => {
-  console.log(match.params);
-  const { title, items } = collection;
+  console.log(collection);
+  const { title,  items } = collection;
   return (
     <div className="shop-page">
       <h2 className="title">{title}</h2>
